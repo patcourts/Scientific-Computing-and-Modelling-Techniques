@@ -64,3 +64,9 @@ def design_matrix(X, phi):
     for i in range(num_observations):
         Phi[i, :] = phi(X[i, :])
     return Phi
+
+def least_squares_MLE(Phi, Y, X):
+    """Compute maximum likelihood estimate of mean and standard deviation of weights"""
+    w_MLE, res_MLE, _, _ = np.linalg.lstsq(Phi, Y, rcond=None)
+    sigma_MLE = np.sqrt(res_MLE / X.shape[0])
+    return w_MLE, sigma_MLE
