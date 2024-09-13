@@ -2,4 +2,4 @@
 
 Repository to collate the techniques used within MSc and undergraduate course as well as those learnt within self imposed projects.
 
-WORK IN PROGRESS
+THIS IS VERY MUCH A WORK IN PROGRESS, HAVE ALOT MORE TO ADD
