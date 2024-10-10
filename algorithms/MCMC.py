@@ -1,4 +1,5 @@
 import numpy as np
+#need to replace potential function
 
 def metropolis_hastings(x0, rho, L, N, step_size, adapt_step_size=False):
     x = [x0]
